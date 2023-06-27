@@ -1,0 +1,39 @@
+[0m17:14:21.579059 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D36F4F9A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D371C45120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D371C45330>]}
+
+
+============================== 17:14:21.579059 | ad41523b-923d-4c61-911f-aecdf806036c ==============================
+[0m17:14:21.579059 [info ] [MainThread]: Running with dbt=1.5.2
+[0m17:14:21.579059 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\sandya.poreddy\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m17:14:21.598899 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/sandya.poreddy/.dbt')}
+[0m17:14:21.598899 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m17:14:21.598899 [debug] [MainThread]: Starter project path: C:\Users\sandya.poreddy\PycharmProjects\pythonProject\venv\lib\site-packages\dbt\include\starter_project
+[0m17:14:38.924919 [info ] [MainThread]: Profile jaffle_shop written to C:\Users\sandya.poreddy\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m17:14:38.924919 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:14:38.924919 [debug] [MainThread]: Command `dbt init` succeeded at 17:14:38.924919 after 17.36 seconds
+[0m17:14:38.924919 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D36F4F9A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D36B56CC70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D36F746E60>]}
+[0m17:14:38.924919 [debug] [MainThread]: Flushing usage events
+[0m17:14:50.825913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F8C0D9A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F8E829C00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F8E829A50>]}
+
+
+============================== 17:14:50.825913 | 4a52eaac-20d1-41ab-81b8-054d0511810b ==============================
+[0m17:14:50.825913 [info ] [MainThread]: Running with dbt=1.5.2
+[0m17:14:50.825913 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\sandya.poreddy\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m17:14:50.825913 [info ] [MainThread]: A project called jaffle_shop already exists here.
+[0m17:14:50.825913 [debug] [MainThread]: Command `dbt init` succeeded at 17:14:50.825913 after 0.03 seconds
+[0m17:14:50.840962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F8C0D9A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F8E829B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F8E8298D0>]}
+[0m17:14:50.840962 [debug] [MainThread]: Flushing usage events
